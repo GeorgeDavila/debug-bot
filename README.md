@@ -13,6 +13,7 @@ for i in [1,2,3]
 in ex2.py the code is missing indentation and a mispelling of the called math library
 
 The function itself is intended to calculate interest rates since we want to have it look at something that might actually appear in the real world, not just pseudocode 
+
 `
 import math 
 

@@ -10,20 +10,17 @@ for i in [1,2,3]
   print(i)
 `
 
-in ex2.py the code is missing indentation and a mispelling of the called math library
+in ex2.py the code is missing indentation a parentheses and a mispelling of the called math library
 
 The function itself is intended to calculate interest rates since we want to have it look at something that might actually appear in the real world, not just pseudocode 
 
 `
 import math 
 
-def interestRateCalculator(principal_amount, rate, ):
-'''Calculate interest rate using float inputs
-principal_amount is the initial dollar amount owed or invested can be float or int 
-rate is the interest rate applied as a percent 
-numberOfYears is the number of accrual events over which the interest is accrued, overwhelmingly often its number of years so we call it that for simplicity can be float or int
-'''
+def interestRateCalculator(principal_amount, rate, numberOfYears):
 interestRateMultiplier = meth.pow( 1 + (rate/100) , numberOfYears) 
 final_amount = principal_amount * interestRateMultiplier
 return final_amount
+
+print(interestRateCalculator(1000, 7, 10) 
 `

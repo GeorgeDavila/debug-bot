@@ -45,4 +45,4 @@ def interestRateCalculator(principal_amount, rate, numberOfYears):
 print(interestRateCalculator(1000, 7, 10))
 ```
 
-We can see that i corrected all issues. For ex1 it added the missing colon and for ex2 it added the missing indentation in the appropriate places, change the mispelled "meth" to "math" and added the missing parentheses in the print function 
+We can see that it corrected all issues. For ex1 it added the missing colon and for ex2 it added the missing indentation in the appropriate places, change the mispelled "meth" to "math" and added the missing parentheses in the print function 
